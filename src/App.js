@@ -1,11 +1,14 @@
-import './App.css';
+import Header from './Header';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
+    <div className='App bg-gray-50 h-screen'>
+      <div className='border-b border-gray-300'>
+        <Header />
+      </div>
+      <div>
         <p>tailwindcss</p>
-      </header>
+      </div>
     </div>
   );
 }
