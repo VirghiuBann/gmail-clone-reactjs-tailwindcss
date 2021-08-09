@@ -1,19 +1,19 @@
 import React from 'react';
-import menuIcon from './assets/icons/menu_black_24dp.svg';
-import supportIcon from './assets/icons/help_outline_black_24dp.svg';
-import settingIcon from './assets/icons/settings_black_24dp.svg';
-import appIcon from './assets/icons/apps_black_24dp.svg';
-import accountIcon from './assets/icons/account_circle_black_24dp.svg';
-import searchIcon from './assets/icons/search_black_24dp.svg';
-import optionIcon from './assets/icons/tune_black_24dp.svg';
+import MenuIcon from './components/icons/menuIconSvg';
+import SupportIcon from './components/icons/helpIconSvg';
+import SettingIcon from './components/icons/settingIconSvg';
+import AppIcon from './components/icons/appIconSvg';
+import AccountIcon from './components/icons/accountIconSvg';
+import SearchIcon from './components/icons/searchIconSvg';
+import TuneIconSvg from './components/icons/tuneIconSvg';
 
 function Header() {
   return (
     <header>
       <div className='h-16 flex content-center justify-between'>
-        <div className='w-3/12 flex'>
+        <div className='w-3/12 md:w-3/12 lg:w-2/12 flex'>
           <button className='btn'>
-            <img src={menuIcon} alt='Menu' />
+            <MenuIcon />
           </button>
           <div className='flex items-center'>
             <img
@@ -24,35 +24,39 @@ function Header() {
           </div>
         </div>
 
-        <div className='w-7/12 flex'>
-          <div className='flex content-center py-2'>
-            <button>
-              <img src={searchIcon} alt='Search' />
-            </button>
-            <div className='w-100'>
+        <div className='w-6/12 md:w-full lg:w-4/12 flex'>
+          <div className='relative w-100 py-2 pl-3 '>
+            <div className='flex content-center focus-within:text-gray-600'>
+              <div className='absolute left-0  inset-y-0 flex content-center'>
+                <button className='pl-5'>
+                  <SearchIcon />
+                </button>
+              </div>
               <input
                 type='email'
                 placeholder='Search mail'
-                className='form-input w-full px-2 py-3 rounded-lg bg-gray-100'
+                className='form-input w-full pl-10 pr-7 py-3 rounded-lg bg-gray-100 focus:bg-white border-transparent focus:border-transparent focus:ring-1 focus:ring-gray-300 shadow-md'
               />
+              <div className='absolute right-0 inset-y-0 flex content-center'>
+                <button className='pr-2 '>
+                  <TuneIconSvg />
+                </button>
+              </div>
             </div>
-            <button>
-              <img src={optionIcon} alt='options' />
-            </button>
           </div>
         </div>
-        <div className='w-2/12 flex justify-end'>
-          <button>
-            <img src={supportIcon} alt='support' />
+        <div className='w-2/12 flex justify-end px-2'>
+          <button className='pl-2'>
+            <SupportIcon />
           </button>
-          <button>
-            <img src={settingIcon} alt='setting' />
+          <button className='pl-2'>
+            <SettingIcon />
           </button>
-          <button>
-            <img src={appIcon} alt='apps' />
+          <button className='pl-2'>
+            <AppIcon />
           </button>
-          <button>
-            <img src={accountIcon} alt='account' />
+          <button className='pl-2'>
+            <AccountIcon />
           </button>
         </div>
       </div>

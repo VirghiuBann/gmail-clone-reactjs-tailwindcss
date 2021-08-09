@@ -2,7 +2,7 @@ import Header from './Header';
 
 function App() {
   return (
-    <div className='App bg-gray-50 h-screen'>
+    <div className='App bg-white h-screen'>
       <div className='border-b border-gray-300'>
         <Header />
       </div>
