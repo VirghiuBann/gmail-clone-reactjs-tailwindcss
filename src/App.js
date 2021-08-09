@@ -1,4 +1,6 @@
-import Header from './Header';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Body from './components/Body';
 
 function App() {
   return (
@@ -6,8 +8,13 @@ function App() {
       <div className='border-b border-gray-300'>
         <Header />
       </div>
-      <div>
-        <p>tailwindcss</p>
+      <div className='flex h-screen'>
+        <div className='w-60 bg-blue-300'>
+          <Sidebar />
+        </div>
+        <div className='flex-1 bg-green-400'>
+          <Body />
+        </div>
       </div>
     </div>
   );

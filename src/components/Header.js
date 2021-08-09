@@ -1,11 +1,11 @@
 import React from 'react';
-import MenuIcon from './components/icons/menuIconSvg';
-import SupportIcon from './components/icons/helpIconSvg';
-import SettingIcon from './components/icons/settingIconSvg';
-import AppIcon from './components/icons/appIconSvg';
-import AccountIcon from './components/icons/accountIconSvg';
-import SearchIcon from './components/icons/searchIconSvg';
-import TuneIconSvg from './components/icons/tuneIconSvg';
+import MenuIcon from './icons/menuIconSvg';
+import SupportIcon from './icons/helpIconSvg';
+import SettingIcon from './icons/settingIconSvg';
+import AppIcon from './icons/appIconSvg';
+import AccountIcon from './icons/accountIconSvg';
+import SearchIcon from './icons/searchIconSvg';
+import TuneIconSvg from './icons/tuneIconSvg';
 
 function Header() {
   return (
