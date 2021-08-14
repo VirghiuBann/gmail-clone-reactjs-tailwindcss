@@ -9,7 +9,7 @@ function App() {
         <Header />
       </div>
       <div className='flex h-screen'>
-        <div className='w-60 bg-blue-300'>
+        <div className='w-64'>
           <Sidebar />
         </div>
         <div className='flex-1 bg-green-400'>
