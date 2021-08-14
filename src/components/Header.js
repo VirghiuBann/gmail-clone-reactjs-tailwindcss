@@ -9,9 +9,9 @@ import TuneIconSvg from './icons/tuneIconSvg';
 
 function Header() {
   return (
-    <header>
-      <div className='h-16 p-1.5 flex content-center justify-between'>
-        <div className='w-3/12 md:w-3/12 lg:w-2/12 flex'>
+    <header className='h-16 border-b border-gray-300'>
+      <div className='p-1.5 flex content-center justify-between'>
+        <div className='w-3/12  md:w-3/12 lg:w-2/12 flex'>
           <button className='btn'>
             <MenuIcon />
           </button>

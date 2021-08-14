@@ -8,3 +8,7 @@
 .btn-blue {
   @apply bg-blue-500 hover:bg-blue-700 text-white;
 }
+
+.container__main__height__full {
+  height: calc(100vh - theme('spacing.16'));
+}

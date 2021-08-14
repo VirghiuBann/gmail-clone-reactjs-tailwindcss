@@ -1,20 +1,17 @@
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Body from './components/Body';
+import SidebarRight from './components/SidebarRight';
 
 function App() {
   return (
-    <div className='App bg-white h-screen'>
-      <div className='border-b border-gray-300'>
-        <Header />
-      </div>
-      <div className='flex h-screen'>
-        <div className='w-64'>
-          <Sidebar />
-        </div>
-        <div className='flex-1 bg-green-400'>
-          <Body />
-        </div>
+    <div className='App bg-white'>
+      <Header />
+
+      <div className='flex container__main__height__full'>
+        <Sidebar />
+        <Body />
+        <SidebarRight />
       </div>
     </div>
   );
