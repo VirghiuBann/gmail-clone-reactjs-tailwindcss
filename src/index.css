@@ -5,8 +5,8 @@
 .btn {
   @apply bg-transparent p-2 my-1.5 rounded-full hover:shadow-md outline-none focus:outline-none hover:bg-gray-100;
 }
-.btn-blue {
-  @apply bg-blue-500 hover:bg-blue-700 text-white;
+.sidebar__btn__right {
+  @apply bg-transparent rounded-full hover:shadow-md outline-none focus:outline-none hover:bg-gray-100;
 }
 
 .container__main__height__full {
