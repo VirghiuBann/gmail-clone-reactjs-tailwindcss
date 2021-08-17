@@ -12,3 +12,8 @@
 .container__main__height__full {
   height: calc(100vh - theme('spacing.16'));
 }
+
+.text__small__time {
+  font-size: 0.62rem;
+  font-weight: 600;
+}

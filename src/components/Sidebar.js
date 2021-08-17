@@ -22,7 +22,7 @@ function Sidebar() {
   return (
     <div className='pr-3 mr-3 relative h-full w-64'>
       <div className='h-16 my-4 pl-2'>
-        <button className='h-full flex content-center rounded-full py-3 px-6 shadow-md border border-gray-100 hover:shadow-lg'>
+        <button className='h-full flex content-center items-center rounded-full py-3 px-6 shadow-md border border-gray-100 hover:shadow-lg'>
           <img
             src='https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png'
             alt='add compose'

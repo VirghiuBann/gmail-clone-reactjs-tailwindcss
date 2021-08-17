@@ -6,6 +6,7 @@ import { mdiRefresh } from '@mdi/js';
 import { mdiDotsVertical } from '@mdi/js';
 import { mdiKeyboard } from '@mdi/js';
 import Icon from '@mdi/react';
+import BodyListItem from './BodyListItem';
 
 function Body() {
   const iconSize = '20px';
@@ -42,6 +43,12 @@ function Body() {
             <Icon path={mdiMenuDown} size={iconSize} color={iconColor} />
           </button>
         </div>
+      </div>
+
+      <div>
+        <BodyListItem title='first title title tls lslsls' />
+        <BodyListItem title='CodePen' />
+        <BodyListItem title='third title' />
       </div>
     </div>
   );
