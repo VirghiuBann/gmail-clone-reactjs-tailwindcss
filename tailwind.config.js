@@ -6,6 +6,9 @@ module.exports = {
       spacing: {
         100: '30rem',
       },
+      gridTemplateColumns: {
+        header: '1fr 5fr 1fr',
+      },
     },
   },
   variants: {
