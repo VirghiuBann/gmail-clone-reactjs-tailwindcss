@@ -20,7 +20,7 @@ import { mdiPhone } from '@mdi/js';
 
 function Sidebar() {
   return (
-    <div className='pr-3 mr-3 relative h-full w-64'>
+    <div className='pr-3 mr-3 relative h-full w-80 min-w-max'>
       <div className='h-16 my-4 pl-2'>
         <button className='h-full flex content-center items-center rounded-full py-3 px-6 shadow-md border border-gray-100 hover:shadow-lg'>
           <img

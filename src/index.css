@@ -17,3 +17,7 @@
   font-size: 0.62rem;
   font-weight: 600;
 }
+
+.static__width {
+  width: calc(100% - 32rem);
+}

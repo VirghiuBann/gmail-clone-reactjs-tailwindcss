@@ -8,7 +8,7 @@ function BodyListItem({ title = '' }) {
   const iconColor = '#6B7280';
   return (
     <div className='flex border-b border-gray-100 hover:bg-gray-100 cursor-pointer h-8'>
-      <div className='w-auto flex items-center'>
+      <div className='flex-initial flex items-center'>
         <button className='px-1'>
           <Icon path={mdiCheckboxBlankOutline} size='20px' color={iconColor} />
         </button>
@@ -20,18 +20,20 @@ function BodyListItem({ title = '' }) {
         </button>
       </div>
 
-      <div className='flex-1 flex items-center'>
-        <div className='w-36 font-medium px-1'>
-          <h3 className='truncate text-sm'>{title}</h3>
+      <div className='flex-initial flex items-center px-1'>
+        <div className='w-36'>
+          <h3 className='w-full truncate font-medium text-sm'>{title}</h3>
         </div>
+      </div>
 
-        <div className='flex-1 flex px-1'>
-          <p className='truncate text-sm'>
-            <span className='font-medium'>
+      <div className='w-full flex items-center'>
+        <div className='px-1  max-w-md'>
+          <p className='w-full truncate'>
+            <span className='font-medium '>
               The CodePen Spark: Magic Marbles in Three.js, JavaScript
-              Raindrops, and CSS Cartoons
+              Raindrops, and CSS Cartoons dfdsfsdf sas
             </span>
-            <span className='text-gray-500'> - description</span>
+            <span className='text-gray-500 '> - description</span>
           </p>
         </div>
       </div>

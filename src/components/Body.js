@@ -12,7 +12,7 @@ function Body() {
   const iconSize = '20px';
   const iconColor = '#6B7280';
   return (
-    <div className='flex-1 400'>
+    <div className='w-full'>
       <div className='h-10 border-b border-gray-300 flex justify-between'>
         <div className='flex align-center'>
           <button>
@@ -45,8 +45,8 @@ function Body() {
         </div>
       </div>
 
-      <div>
-        <BodyListItem title='first title title tls lslsls' />
+      <div className='flex flex-col w-full h-max'>
+        <BodyListItem title='first title title tls lslsls title' />
         <BodyListItem title='CodePen' />
         <BodyListItem title='third title' />
       </div>

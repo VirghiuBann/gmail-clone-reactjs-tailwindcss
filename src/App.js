@@ -8,7 +8,7 @@ function App() {
     <div className='App bg-white'>
       <Header />
 
-      <div className='flex container__main__height__full'>
+      <div className='flex container__main__height__full w-full'>
         <Sidebar />
         <Body />
         <SidebarRight />
